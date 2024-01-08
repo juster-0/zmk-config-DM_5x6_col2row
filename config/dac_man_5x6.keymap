@@ -62,8 +62,8 @@
         Gaming {
             bindings = <
 &trans  &trans            &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &kp E   &kp W   &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT    &kp A   &kp S   &kp D   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT    &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_CONTROL  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
                           &trans  &trans                                                  &trans  &trans
                                           &trans  &trans                  &trans  &trans
