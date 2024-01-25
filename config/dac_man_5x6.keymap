@@ -12,8 +12,8 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <1 5>;
-            then-layer = <6>;
+            if-layers = <1 6>;
+            then-layer = <5>;
         };
     };
 
@@ -61,7 +61,7 @@
 
         Gaming {
             bindings = <
-&trans  &trans            &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &to 4
 &trans  &trans            &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_SHIFT    &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_CONTROL  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -69,6 +69,19 @@
                                           &trans  &trans                  &trans  &trans
                                                   &trans  &trans  &trans  &trans
                                                   &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Gaming_Typing {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &to 3
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans                                                  &trans  &trans
+                                &trans  &trans                  &trans  &trans
+                                        &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans
             >;
         };
 
