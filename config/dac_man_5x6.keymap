@@ -61,10 +61,10 @@
 
         FunctionsGaming {
             bindings = <
-&trans      &trans  &trans  &kp F3  &kp F4  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &kp F3  &kp F4  &kp F5                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &kp Q   &trans  &trans  &trans  &kp T                   &trans  &trans  &kp I   &trans  &kp P   &trans
 &kp ESCAPE  &kp A   &kp S   &kp D   &trans  &kp G                   &kp H   &trans  &trans  &kp L   &trans  &trans
-&trans      &trans  &trans  &kp C   &trans  &kp B                   &kp N   &trans  &trans  &trans  &trans  &trans
+&mo 2       &trans  &trans  &kp C   &trans  &kp B                   &kp N   &trans  &trans  &trans  &trans  &trans
                     &trans  &trans                                                  &trans  &trans
                                     &trans  &trans                  &trans  &trans
                                             &trans  &trans  &trans  &trans
